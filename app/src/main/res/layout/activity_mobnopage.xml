@@ -7,42 +7,42 @@
     android:background="#106C5F"
     tools:context=".mobnopage">
 
-<TextView
-    android:id="@+id/txtheading"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Whatsapp 2.0"
-    android:textSize="30dp"
-    android:layout_marginLeft="40dp"
-    android:textColor="@color/white"
-    android:textStyle="bold"
-    android:layout_marginTop="30dp"
-    />
+    <TextView
+        android:id="@+id/txtheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Whatsapp 2.0"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/txtenter"
         android:layout_width="wrap_content"
         android:layout_height="50sp"
-        android:text="Enter mobile no"
         android:layout_below="@+id/txtheading"
-        android:textSize="20sp"
-        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="60dp"
+        android:layout_marginTop="210dp"
+        android:text="Enter mobile no"
         android:textColor="@color/white"
+        android:textSize="20sp" />
 
-        />
-<EditText
-    android:id="@+id/edtphno"
-    android:layout_width="wrap_content"
-    android:layout_height="45dp"
-    android:textSize="25sp"
-    android:hint="Mob no"
-    android:inputType="number"
-    android:ems="10"
-    android:background="@color/white"
-    android:layout_below="@+id/txtheading"
-    android:layout_marginTop="250dp"
-    android:layout_centerHorizontal="true"
-    />
+    <EditText
+        android:id="@+id/edtphno"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtheading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Mob no"
+        android:inputType="number"
+        android:textSize="25sp" />
+
     <Button
         android:id="@+id/btverify"
         android:layout_width="300dp"
@@ -50,8 +50,7 @@
         android:layout_below="@+id/edtphno"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="verify the phno"
         android:backgroundTint="@color/black"
-        />
-        
+        android:text="verify the phno" />
+
 </RelativeLayout>

@@ -124,7 +124,7 @@
 
     <Button
         android:id="@+id/btotp"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_below="@id/otpset"
         android:layout_centerHorizontal="true"
@@ -142,5 +142,20 @@
         android:layout_marginBottom="70dp"
         android:layout_marginLeft="35dp"
         android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/resendtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend OTP"
+        android:textSize="20sp"
+        android:layout_below="@+id/btotp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+
+
+
         />
 </RelativeLayout>
